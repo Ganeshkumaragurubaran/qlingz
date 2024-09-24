@@ -26,7 +26,7 @@ export default function Home() {
         <Stats />
         <Supports />
         <BenefitsGrid />
-        <Pricing />
+        {/* <Pricing /> */}
         <BlogCarousel />
       </div>
       <EmailCapture />

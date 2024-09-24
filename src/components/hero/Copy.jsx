@@ -6,29 +6,28 @@ import { Button } from "../shared/Button";
 export const Copy = () => {
   return (
     <>
-      <div className="mb-1.5 rounded-full bg-zinc-600">
+      <div className="mb-4 rounded-full bg-zinc-600">
         <Link
           href="https://qlingz.com/"
           target="_blank"
           rel="nofollow"
-          className="flex origin-top-left items-center rounded-full border border-zinc-900 bg-white p-0.5 text-sm transition-transform hover:-rotate-2"
+          className="flex items-center p-1 text-sm transition-transform bg-white border rounded-full border-zinc-900 hover:-rotate-2"
         >
-          <span className="rounded-full bg-[#FF6154] px-2 py-0.5 font-medium text-white">
+          <span className="rounded-full bg-[#FF6154] px-2 py-1 font-medium text-white">
             HEY!
           </span>
-          <span className="ml-1.5 mr-1 inline-block">
-            We're live!
-          </span>
-          <FiArrowUpRight className="inline-block mr-2" />
+          <span className="ml-2">Welcome to QLINGZ</span>
+          <FiArrowUpRight className="ml-auto mr-2" />
         </Link>
       </div>
-      <h1 className="max-w-4xl text-center text-4xl font-black leading-[1.15] md:text-7xl md:leading-[1.15]">
-        Your solutions start here
+      <h1 className="max-w-4xl text-3xl font-black leading-tight text-center text-white md:text-6xl">
+        Bringing Quality, Safety, and Sustainability to Life
       </h1>
-      <p className="max-w-3xl mx-auto my-4 text-base leading-relaxed text-center md:my-6 md:text-2xl md:leading-relaxed">
-        Commited to helping our clients succeed our mission is your success
+      <p className="max-w-2xl mx-auto my-4 text-base leading-relaxed text-center text-white md:my-6 md:text-2xl">
+        At Qlingz, we are committed to exceeding your expectations with tailored
+        quality assurance services for your supply chain, globally and 24/7.
       </p>
-      <Button>
+      <Button className="mt-4">
         <span className="font-bold">Get started - </span> no CC required
       </Button>
     </>
